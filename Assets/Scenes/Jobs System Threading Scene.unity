@@ -312,7 +312,7 @@ MonoBehaviour:
   zombiePrefab: {fileID: 4329461791057033507, guid: 4720c3e9064197849b3f45a7b43f0347,
     type: 3}
   zombieParent: {fileID: 383080055}
-  zombiesToSpawn: 200
+  zombiesToSpawn: 1000
 --- !u!4 &821344190
 Transform:
   m_ObjectHideFlags: 0

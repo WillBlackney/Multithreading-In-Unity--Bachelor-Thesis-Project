@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{383CABFA-F3E5-1667-3F21-58056E45F958}</ProjectGuid>
+    <ProjectGuid>{2A844A41-71E5-DF3A-1870-78E16CEE9F9C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -68,91 +68,43 @@
     <Compile Include="Assets\Scripts\ThreadQueue.cs" />
     <Compile Include="Assets\Scripts\Zombie.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -332,7 +284,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>C:/Users/Will/Desktop/Unity Projects/Repos/Unity2D/Jobs System Project 1/Library/PackageCache/com.unity.burst@1.2.3/Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>C:/Users/Will/Desktop/Multithreading-In-Unity--Bachelor-Thesis-Project/Library/PackageCache/com.unity.burst@1.2.3/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
