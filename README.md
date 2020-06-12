@@ -3,7 +3,8 @@
 As part of the requirements of my bachelor degree in computer science, i created this project as a means of understanding how to develop multi-threaded applications within the Unity Engine. 
 During the project, i investigated and experimented with a variety of different approaches to creating multi-threaded solutions, with the two key approaches being:
 
-1.'C# Job System' approach that takes advantage of Unity's new 'Data Oriented Technology Stack' (DOTS), and
+1. C# Job System approach that takes advantage of Unity's new 'Data Oriented Technology Stack' (DOTS), and
+
 2. an 'Old School' approach which uses the tools from the .Net Framework, and System.Threading namespace.
 
 ### Project Scope
