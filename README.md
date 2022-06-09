@@ -20,5 +20,7 @@ System' package change multithreading implementation?
 In order to adequately test, design, implement and explore the true power of all the different approaches to multi-threading in Unity, i created a simple project called 'One Thousand Zombies!'. The functionality of the application is simple: instantiate 1000 'Zombie' game objects, then move them up and down the screen. 
 In order to fairly compare the performance of different multithreading approaches ('Old School' threading, Jobs System Threading, etc), each approach was implemented within in this project, and performed the exact same task of moving zombies up and down the screen.
 
+![](Assets/zombies_1.png)
+
 ### Thesis Documentation
 You can read the full thesis documentation [here](Thesis%20Documentation/Will.Blackney.Synopsis.Final.Draft.pdf)
